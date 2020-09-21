@@ -3,8 +3,8 @@ import React from "react"
 
 function Result (props) {
     return (
-        <div>
-            <p>Result: {props.result}</p>
+        <div className="result">
+            Result: {props.result}
         </div>
     )
 }

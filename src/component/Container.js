@@ -8,7 +8,7 @@ function Container (props) {
 
     return (
         <div className="container">
-            <div className="info">
+            <div className="container-header">
                 <h1>2048</h1>
                 <Score score={props.score}/>
             </div>
