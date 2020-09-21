@@ -272,7 +272,7 @@ function App() {
     if (zeros === 0) {
       setResult('You LOSE')
       console.log('You LOOOOOOOOST')
-      document.removeEventListener('keyup', useEffect)
+      document.removeEventListener('keydown', useEffect)
       return true
     }
     return false
