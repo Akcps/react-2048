@@ -4,6 +4,7 @@
 
 .App-header {
   width: 50%;
+  min-width: 500px;
   margin: 0 auto;
   background-color: #282c34;
   display: flex;
@@ -30,6 +31,8 @@ h1 {
 .container-header {
   display: flex;
   padding-top: 2%;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .grid {
